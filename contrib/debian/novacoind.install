@@ -1,0 +1,2 @@
+debian/bin/InterCroned usr/bin
+src/InterCroned usr/lib/InterCrone

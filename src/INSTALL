@@ -1,0 +1,9 @@
+Building InterCrone
+
+See doc/readme-qt.rst for instructions on building InterCrone QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of InterCrone.
+
+See doc/build-*.txt for instructions on building InterCroned,
+the intended-for-services, no-graphical-interface, reference
+implementation of InterCrone.

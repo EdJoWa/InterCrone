@@ -1,0 +1,5 @@
+InterCrone-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/InterCrone-qt.desktop usr/share/applications
+debian/InterCrone-qt.protocol usr/share/kde4/services/
