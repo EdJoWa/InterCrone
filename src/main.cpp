@@ -57,7 +57,7 @@ unsigned int nModifierIntervalOld = 2 * 60; // old value
 unsigned int nModifierInterval = nModifierIntervalNew;
 unsigned int nBlockHeightForNewModifierInterval = 20; // the block height for applying the new modifier interval
 unsigned int nPreminedCoin = 15600000; // number of premined coin
-int64_t nPoWReward = 0.5; // Proof of Work block reward
+int64_t nPoWReward = 0.1; // Proof of Work block reward
 
 int nCoinbaseMaturity = 30; // 30 blocks ICR Maturity
 CBlockIndex* pindexGenesisBlock = NULL;
