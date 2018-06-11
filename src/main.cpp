@@ -46,20 +46,20 @@ static const int64_t nTargetTimespan = 16 * 60; // diff retarget
 static const int64_t nTargetTimespanOld = 16 * 60; // diff retarget
 static const int64_t nTargetTimespanNew = 24 * 60 * 60; // diff retarget
 unsigned int nBlockHeightForNewTargetTimespan = 3610; // the block height for applying the new target timespan
-unsigned int nTargetSpacing = 1.2 * 60; // InterCrone - 120 seconds block time
+unsigned int nTargetSpacing = 1 * 60; // InterCrone - 60 seconds block time
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
 unsigned int nStakeMinAge = 24 * 60 * 60; // 24 Std. min staking age InterCrone
-unsigned int nStakeMaxAge = -1;  // unlimited
+unsigned int nStakeMaxAge = 360 * 24 * 60 * 60;  // unlimited
 unsigned int nModifierIntervalNew = 10 * 60; // InterCrone - time to elapse before new modifier is computed
 unsigned int nModifierIntervalOld = 2 * 60; // old value
 unsigned int nModifierInterval = nModifierIntervalNew;
 unsigned int nBlockHeightForNewModifierInterval = 20; // the block height for applying the new modifier interval
-unsigned int nPreminedCoin = 15500000; // number of premined coin
-int64_t nPoWReward = 0.001; // Proof of Work block reward
+unsigned int nPreminedCoin = 15600000; // number of premined coin
+int64_t nPoWReward = 0.5; // Proof of Work block reward
 
-int nCoinbaseMaturity = 3; // 3 blocks
+int nCoinbaseMaturity = 30; // 30 blocks ICR Maturity
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
